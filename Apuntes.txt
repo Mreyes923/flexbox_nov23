@@ -1,0 +1,12 @@
+FLEXBOX
+
+CSS
+font-weight: bold; --> Poner en negrita las palabras. 
+display: flex; --> Ubica los elementos uno a la par de otro.
+flex-wrap: wrap; --> Permite agregar mas elementos y saltar de linea cuando se acumule en una fila. 
+flex-direction: row --> Ubica los elementos en fila. 
+flex-flow: row wrap; --> Une el flex wrap con el flex direction. 
+justify-content --> Ajusta/distancia los elementos entre si dentro de una caja. 
+align-items --> ubica los elementos ya sea centrados, izquierda, o derecha.  
+align-content --> organiza los elementos casi igual que align-items. 
+order: '' --> Permite mover los elementos desde css

@@ -1,0 +1,48 @@
+body{
+    background: beige;
+}
+
+.flex-container{
+    display: flex;
+    border: 1px solid black;
+    background: #ccc;
+    padding: 20px;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    height: 600px;
+    /* align-items: center; */
+    align-content: center;
+    
+}
+
+.caja{
+    border: 1px solid rgb(70, 69, 69);
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', courier, monospace;
+    font-weight: bold;
+    width: 200px;
+    line-height: 200px;
+    text-align: center;
+    margin: 5px;
+}
+
+.c1{
+    background: lightblue;
+    order: 2;
+    flex-grow: 5;
+}
+.c2{
+    background: lightcoral;
+    order: 3;
+    flex-grow: 1;
+}
+.c3{
+    background: lightgreen;
+    order: 1;
+    flex-grow: 1;
+}
